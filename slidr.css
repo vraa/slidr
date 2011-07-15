@@ -1,0 +1,27 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{background:transparent;border:0;font-size:100%;margin:0;outline:0;padding:0;vertical-align:baseline}
+body{line-height:1;overflow:hidden}
+ol,ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+:focus{outline:0}
+ins{text-decoration:none}
+del{text-decoration:line-through}
+table{border-collapse:collapse;border-spacing:0}
+header{background-color:#333;display:block;font-family:Arial;padding:10px}
+header h1{color:#EEE;float:left;font:1em Georgia;font-weight:700;margin-right:30px}
+header h1 span{color:#CCC;font-size:.8em;font-style:italic;margin-left:10px}
+header h1 a{color:#CCC;}
+header a{-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;color:#000;font-weight:700;margin-right:10px;padding:3px 5px;text-decoration:none}
+header a span{-moz-border-radius:10px;-webkit-border-radius:10px;background-color:#000;border-radius:10px;color:#FF0;margin:0 5px;padding:0 5px}
+#panelSwitch{-moz-border-radius:0 0 10px 10px;-webkit-border-radius:0 0 10px 10px;background-color:#444;border-radius:0 0 10px 10px;color:#EEE;display:block;float:right;font:.8em Arial;font-weight:700;margin-right:10px;padding:3px 10px}
+#panelSwitch:hover{color:#FF0;cursor:pointer}
+section.slidr{display:block;margin-top:20px}
+section.slidr article{border:1px solid #888;color:#333;display:block;font:1em Georgia, Serif;font-size:1.5em;height:80%;padding:20px;position:absolute;width:80%}
+section.slidr article ul{line-height:1.5em;list-style:disc;margin:20px 10px 10px 30px}
+section.slidr article h1{color:#000;font:1.5em Georgia, Serif;text-shadow:1px 1px 2px #333}
+section.slidr article.activeSlide{-moz-box-shadow:0 0 5px #555;-webkit-box-shadow:0 0 5px #555;background-color:#EDEDED;background-image: -moz-linear-gradient(top, #FFFFFF, #CCCCCC);background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #FFFFFF),color-stop(1, #CCCCCC));;box-shadow:0 0 5px #555;opacity:1}
+section.slidr article.hiddenSlide{-moz-box-shadow:0 0 0 #555;-webkit-box-shadow:0 0 0 #555;background-color:#EDEDED;box-shadow:0 0 0 #555;opacity:.3}
+header a#add{background-image: -moz-linear-gradient(top, #8EBD62, #B7FF73);background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #8EBD62),color-stop(1, #B7FF73));}
+header a#delete{background-image: -moz-linear-gradient(top, #FF0000, #FF1100);background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #FF0000),color-stop(1, #FF1100));}
+header a#next, header a#prev{background-image: -moz-linear-gradient(top, #CFB82E, #FDEF6B);background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #CFB82E),color-stop(1, #FDEF6B));}
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+		<title>Slidr - Make your online presentation</title>
+		<link type="text/css" rel="stylesheet" href="slidr.css" />
+	</head>
+	<body>
+	
+		<header style="margin-top: 0px;">
+			<h1> Slidr <span>by <a href="http://veerasundar.com/">Veera</a></span> </h1>
+			<a href="javascript:void(0);" id="add" title="Add a new slide *at the end*"><span>+</span>Add new slide</a>
+			<a href="javascript:void(0);" id="delete" title="Delete current slide"><span>x</span>Delete this slide</a>
+			<a href="javascript:void(0);" id="prev" title="Move to previous slide"><span>&lt;</span>Previous</a>
+			<a href="javascript:void(0);" id="next" title="Move to next slide">Next<span>&gt;</span></a>
+		</header>
+		<section id="panelSwitch">Done editing</section>
+		
+		<section class="slidr">
+			
+			<article style="left: 100px;" class="activeSlide" id="1" contenteditable="true">
+				<h1>Slidr - How to use?</h1>
+				<ul>
+					<li>Click on "Edit Slides" (top-right section), to go into edit mode (if you are not in edit mode already).</li>
+					<li>Click on Slide title/or slide points end edit as you wish.</li>
+					<li>After you are done, click "Done editing" (top-right section).</li>
+					<li>To navigate between slide: Use arrow keys (while not in edit mode) and Use buttons in top panel (while in edit mode).</li>
+					<li>To save, go to File -&gt; Save page as and give a file name.</li>
+					<li>You can use the saved file there after, to give a presentation anywhere. :)</li>
+					<li>*IMPORTANT*: Slidr uses JQuery library. So, either you should 
+be connected to internet or use a local copy of JQuery before using this
+ application. </li>
+				</ul>
+			</article>
+		
+		</section>
+	
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script type="text/javascript" src="slidr.js"></script>
+
+</body></html>
